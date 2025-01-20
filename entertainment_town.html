@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Taniti</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Nav -->
+    <nav class="bg-gray-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="Index.html" class="block">
+					<img src="./static/flag_icon_home.png" alt="LOGO" width="192" height="114" class="h-8 w-auto">
+					</a>
+                </div>
+                
+                <!-- Nav Grid -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-center space-x-12">
+                        <a href="travel.html" class="text-gray-600 px-3 py-1 rounded-md hover:bg-gray-100">Travel</a>
+						<a href="lodging.html" class="text-gray-600 px-3 py-1 rounded-md hover:bg-gray-100">Lodging</a>
+						<a href="food.html" class="text-gray-600 px-3 py-1 rounded-md hover:bg-gray-100">Food</a>
+						<a href="entertainment.html" class="text-gray-600 px-3 py-1 rounded-md hover:bg-gray-100">Entertainment</a>
+						<a href="about.html" class="text-gray-600 px-3 py-1 rounded-md hover:bg-gray-100">About Taniti</a>
+                    </div>
+                </div>
+                
+                <!-- Search -->
+                <div class="flex items-center">
+                    <input type="search" placeholder="Search..." class="w-32 lg:w-50 px-3 py-1 border rounded-md bg-gray-50"/>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Primary -->
+    <div class="bg-white py-8 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+			
+            <div class="h-64 md:h-96 flex items-center justify-center border-2 border-gray-300 rounded-lg bg-gray-200">
+				
+				<p class="text-2xl text-black text-lg px-5 py-2">
+					<span class="text-lg font-bold">On the Town in Taniti!</span>
+					<br><br>
+                    Taniti is filled with bars, pubs, and microbreweries galore! Maybe once you've had a chance to get sauced you'd like to give our zip-line a whirl and see if you can keep lunch down!<br><br>
+                    Most tourists spend most of their time in Taniti City, which boasts native architecture, so get your camera out!<br><br>
+                    Maybe after that you'll have more drinks and then go dancing! But be careful, tourists shouldn't be out in Taniti City after dark if they value their lives.
+				</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
+            <!-- Airport Card -->
+            <div class="bg-white p-6 rounded-lg shadow-sm">
+                <a href="entertainment_beach.html">
+                    <img
+                        src="./static/sunrise_03.png"
+                        alt="a tropical view, click to view the travel guide for new visitors"
+                        class="h-20 bg-gray-100 rounded-md mb-4"
+                    />
+                </a>
+                <h3 class="text-lg font-medium text-gray-900">Beaches and Nature</h3>
+                <p class="mt-2 text-gray-600">Learn about Taniti's public beaches</p>
+            </div>
+
+            <!-- Bus Taxi Card -->
+            <div class="bg-white p-6 rounded-lg shadow-sm">
+                <a href="entertainment_town.html">
+                    <img
+                        src="./static/package_03.png"
+                        alt="a tropical view, click to view the travel guide for new visitors"
+                        class="h-20 bg-gray-100 rounded-md mb-4"
+                    />
+                </a>
+                <h3 class="text-lg font-medium text-gray-900">Around Town</h3>
+                <p class="mt-2 text-gray-600">Find out more about chartered events, and Taniti's in-town offerings</p>
+            </div>
+
+            <!-- Walking Card -->
+            <div class="bg-white p-6 rounded-lg shadow-sm">
+                <a href="entertainment_soon.html">
+                    <img
+                        src="./static/sunset_03.png"
+                        alt="a tropical view, click to view the travel guide for new visitors"
+                        class="h-20 bg-gray-100 rounded-md mb-4"
+                    />
+                </a>
+                <h3 class="text-lg font-medium text-gray-900">Coming Soon</h3>
+                <p class="mt-2 text-gray-600">Take a peek at some upcoming attractions!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
